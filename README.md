@@ -1,3 +1,3 @@
-# sbh2023
-# sbh2023
-# sbh2023
+# SBH2023: Smart Bengal Hackathon
+
+## Test project for SBH Registration
