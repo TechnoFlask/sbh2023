@@ -1,0 +1,27 @@
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+}
+
+.progress {
+    width: 50rem;
+    height: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-radius: 10px;
+}
+
+.progress div {
+    border: 1px solid white;
+}
+
+.progress div:first-child,
+.progress div:nth-child(2) {
+    background-color: green;
+}
+.progress div:nth-child(3),
+.progress div:nth-child(4),
+.progress div:nth-child(5) {
+    background-color: blue;
+}

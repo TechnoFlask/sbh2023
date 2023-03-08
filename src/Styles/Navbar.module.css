@@ -1,0 +1,46 @@
+.nav {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-first {
+    display: flex;
+    margin-left: 3rem;
+    gap: 0.5rem;
+}
+
+.nav a {
+    all: unset;
+    padding-bottom: 3px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position-y: bottom;
+    transition: background-size 200ms ease-in-out;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-size: 100% 3px;
+}
+
+a:last-child {
+    margin-right: 3rem;
+}
